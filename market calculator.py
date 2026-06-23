@@ -1,0 +1,5 @@
+name = input ("اكتب اسم المنتج : ")
+price = input ("ادخل سعر الواحده: ")
+number1 = input ("ادخل عدد المنتج: ")
+result = float(number1) * float(price)
+print ("product name is " +name+ " you bought " +str(number1)+ " total price is " +str(result))
